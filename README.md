@@ -2,7 +2,7 @@
 PAT is an application developed with HTML, JS as frontend and Python as backend. It uses CGI to communicate. 
 
 # Features
-PAT is multi utility application.PAT allows
+PAT is multi utility application. PAT allows
 * To Generate/SIGN SSL certificate 
 * To manage DHCP with VMware/Proxmos
 * Reset/Authentication check ARISTA EOS nodes
