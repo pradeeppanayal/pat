@@ -1,7 +1,7 @@
 # PAT
 PAT is an application developed with HTML, JS as frontend and Python as backend. It uses CGI to communicate. 
 
-#Features
+# Features
 It allows to Generate/SIGN SSL certificate 
 Allows to manage DHCP with VMware/Proxmos
 Reset/Authentication check ARISTA EOS nodes
@@ -9,7 +9,7 @@ Image push and config push to EOS devices using eAPI/SSH
 Easy remote SSH
 Open VMWare node console in your machine from PAT server
 
-#Usage
+# Usage
 Install java
 Install python
 Set JAVA_HOME or JRE_HOME
