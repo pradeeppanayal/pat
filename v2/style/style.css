@@ -1,0 +1,499 @@
+/*
+*
+* Author  : Divyaprakash
+* Version : 1.0.0
+* Since   : 2.0.0
+*
+*/
+
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../font/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../font/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Condensed-Regular";
+    src: url("../font/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Condensed-Bold";
+    src: url("../font/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../font/Roboto-Thin.ttf");
+}
+body {
+   font-family: Roboto-Condensed-Regular;
+   font-size: 14px;
+}
+.headerWrap {
+	background-color: #008da9;
+	padding: 5px 8px;
+}
+.headerLogo {
+	font-size: 24px;
+	color: #fff;
+	font-family: Roboto-Condensed-Bold;
+	letter-spacing: 1.5px;
+}
+.leftPaneWrap {
+	min-width: 265px;
+	width: 20%;
+	height: 605px;	
+	padding: 10px 0;
+	background-color: #f8f8fb;
+}
+.rightPaneWrap {
+	min-width: 1078px;
+	width: 80%;
+	height: 605px;
+	overflow:hidden;
+}
+.menuHolder {
+	margin-bottom: 10px;
+}
+.menuHolder  p{
+	font-family: Roboto-Bold;
+	font-size: 15px;
+	margin-bottom: 4px;
+	padding: 0 10px;
+	color: #131316;
+}
+.menuHolder  ul {
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.menuHolder  ul li{
+	list-style-type: none;
+	color: #008da9;
+	padding: 4px 0 4px 20px;
+	cursor: pointer;
+}
+.menuHolder  ul li a, .menuHolder  ul li a:hover{
+	text-decoration: none;
+	color: #008da9;
+}
+.menuHolder  ul li:hover, .menuHolder  ul li.active{
+	background-color: #daddea;
+}
+.rightPaneWrap {
+	padding: 0 15px;
+}
+.breadcrumbWrap {
+	font-size: 12px;	
+	padding: 12px 0; 
+	border-bottom: 1px solid #ccc;
+}	
+.breadcrumbWrap a, .breadcrumbWrap a:hover, td a, td a:hover {
+	color: #395cff;
+	cursor: pointer;
+}
+.mainContentWrap h3 {
+	font-size: 18px;
+	font-family: Roboto-Bold;
+	margin: 10px 0 15px;
+}
+.inputFields {
+	margin-bottom: 8px;
+}
+.inputFields span {
+	display: inline-block;
+	width: 180px;
+	color: #008da9;
+}
+.inputFields select {
+	width: 150px;
+	height: 28px;
+	border: 1px solid #ccc;
+}
+.mainContentWrap h4{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+.inputFields input {
+	width: 280px;
+	height: 28px;
+	border: 1px solid #ccc;
+}
+.buttonWrap {
+	margin: 25px 0 0 185px;
+}
+.inlineButton {
+	display: inline-block;	
+}
+.buttonWrap button, .inlineButton button, .addButton,input[type=submit],input[type=reset] {
+	color: #fff;
+	padding: 6px 12px;
+	background-color: #008da9;
+	border: none;
+	margin-right: 5px;
+}
+.addButton a, .addButton a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.inlineButton button {
+	padding: 4px 12px;
+	margin-left: 5px;
+}
+.buttonWrap button.secondaryBtn,input[type=reset] {
+	background-color: #91939d;
+}
+.textBox {
+	height: 435px;
+	margin-top: 15px;
+	border: 1px solid #ccc;
+	overflow:auto;
+}	
+.optionHolders {
+	background-color: #f8f8fb;
+	height: 225px;
+	width: 49%;
+	margin-bottom: 10px;
+	float: left;
+	padding: 45px 0;
+}
+.firstBox {
+	padding: 75px 0;
+}
+.marginRight {
+	margin-right: 10px;
+}
+.centerAlign {
+	text-align: center;
+}
+.centerAlign.buttonWrap {
+	margin-left: 0;
+	margin-top: 5px;
+}
+div.fileinputs {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	border:1px solid #ccc;
+	background-color: #f8f8fb;
+	padding: 2px 0 2px 3px;
+	margin-left: 150px;
+}
+div.fakefile input[type=file]{
+	border:none;
+	background-color: #f8f8fb;
+}
+div.fakefile input {
+    border: none;
+    background-color: #f8f8fb;
+}
+div.fakefile span{
+	background-color: #008da9;
+	color: #fff;
+	padding: 6px;
+}
+input.file {
+	margin-left: 140px;
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+.inputFields .fileinputs{
+	display: inline-block;
+	width: 280px;
+}
+.inputFields div.fakefile {
+	margin-left: 0px;
+	padding: 0;
+}
+.inputFields input.file {
+	margin-left: 0px;
+}
+.inputFields .fileinputs > input {
+	width: 280px;
+	height: 24px;
+	
+}
+.inputFields div.fakefile input {
+	width: 213px;
+	padding: 0 6px;
+	height: 26px;
+}
+.inputFields div.fakefile span {
+	width: 60px;
+	padding: 3px 6px;
+}
+.optionHolders  input[type="text"] {
+	margin-bottom: 10px;
+	border:1px solid #ccc;
+	padding:4px;
+	text-align: center;
+	background-color: #f8f8fb;
+}
+.addButton {
+	font-size: 38px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 5px 6px 6px;
+	font-family: Roboto-Thin;
+}
+table {
+	margin-top: 40px;
+}
+th {
+	background-color: #f8f8fb;
+}
+table, th, td {
+    border: 1px solid #ccc;
+	border-width:1px 0;
+    border-collapse: collapse;	
+}
+td {
+	color: #008da9;
+}
+table th, table td {
+	padding: 8px 20px;
+}
+.textareaLabel {
+	vertical-align: top;
+}
+textarea {
+	border: 1px solid #ccc;
+        width: 280px;
+	resize: vertical;
+	min-height: 80px;	
+}
+.resetLeftPane {
+	width:50%;
+}
+.resetRightPane {
+	width:50%;
+	height: 450px;
+	border-left: 1px solid #ccc;
+	padding-left:10px;
+}
+.resetLeftPane .inputFields span {
+	width: 145px;
+}
+.resetLeftPane .buttonWrap {
+    margin: 25px 0 0 148px;
+}
+.consoleContent{
+    text-align: left;
+    height: 425px;
+    overflow-y: auto;
+}
+.highligh{
+	background-color: #FFFF00;
+        font-weight:bold;
+}
+.dhcpSearchResults {
+	padding: 10px;
+	font-size: 14px;
+	line-height: 23px;	
+}
+.dhcpSearchResults h4{
+	margin:5px 0 10px 0;
+}
+.lineNo {
+	font-weight: bold;
+	display: inline-block;
+	font-family: Roboto-Condensed-Bold;
+}
+.resetLeftPane {
+	height: 500px;
+	overflow: auto;
+}
+.accordionWrap {
+	border: 1px solid #ccc;	
+}
+.accordionWrap ul {
+	padding: 0;
+	margin: 0;
+}
+.accordionWrap > ul > li {
+	padding: 0 0;	
+	border-bottom: 1px solid #ccc;
+}
+.accordionWrap ul li label{
+	margin-bottom: 0;
+	padding: 5px 15px;
+	display: block;
+	background: #daddea;
+}
+.accordionWrap ul li ul {
+	background: #f8f8fb;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-weight: normal;
+}
+.accordionWrap ul li ul li input{
+	margin: -2px 3px 0 0;
+	vertical-align: middile
+	list-style-type: none;
+	font-size:bold;
+	padding-bottom:5px;
+}
+
+.accordionWrap  #tree{ 
+	list-style-type: none;
+}
+
+.accordionWrap #tree ul{
+	display:none;  
+	list-style-type: none;
+	padding: 10px 13px;
+}
+
+.accordionWrap #tree ul li:hover ul{
+		display:block
+}
+.accordionWrap ul li ul li .sweep a {
+	text-decoration: none;
+	background-color: #008da9;
+	padding: 2px 6px ;
+	font-size: 11px;
+    	margin: 0 2px;
+}
+.accordionWrap ul li ul li .sweep a, .accordionWrap ul li ul li .sweep a:hover {
+	color: #fff;
+}
+.accordionInputWrap input {
+	margin-right: 6px;
+}
+.accordionInputWrap .buttonWrap {
+	margin: 0;
+	display: inline-block;
+}
+.accordionInputWrap .buttonWrap button{
+	padding: 4px 12px;
+}
+.expandIcon {
+	color: #008da9;
+	font-weight: bold;
+	float: right;
+	margin: -3px 0 0;
+	font-size: 20px;
+}
+.history{
+}
+.history a{
+	border: 1px solid #efefef;
+	background-color: #008da9;
+}
+.history a img{
+	width : 33px;
+}
+
+/*.medias {
+	display: inline;
+}*/
+
+/*
+Custom 
+*/
+.inlineConsole{
+    height: 40px;
+    overflow: auto; 
+}
+.deviceList{
+    height: 430px;
+    overflow: auto; 
+}
+.deviceList table{
+    margin-top: 0px;
+    width: 100%;
+}
+
+.rowHeading{
+    font-size: 16px;
+    font-family: Roboto-Bold; 
+}
+.tile{
+	width:30%;
+	margin: 5px;
+}
+
+
+	.mediaItem{
+		width : 330px;
+		height : 80px;;
+		margin:1px;
+		margin-right:5px;
+		clear:none;
+		float:left;
+	}
+	.boxLeft{
+		background-color: #f8f8fb;
+		height:95%;
+		width: 23%;
+		float:left;
+		margin:0px;		
+	}
+	.boxRight{
+		padding : 0 2px 0px 10px;
+		background-color: #f8f8fb;
+		height:95%;
+		width:75%;
+		float:right;
+	}
+	.mediaItem .title{
+		width: 100%;
+    		float: left;
+    		font-weight: 600;
+    		overflow: hidden;
+	}
+	.mediaItem .body{		
+    		width: 100%;
+		height: 40%;
+    		float: left;
+    		overflow: hidden;
+		padding:3px;
+	}
+	.mediaItem .date{		
+    		width: 50%;
+    		float: right;
+	}
+	.mediaItem .type{		
+    		width: 50%;
+    		float: left;
+	}
+
+#footer {
+  padding: 5px 0;
+    background-color: #f8f8fb;
+    border-top: 1px solid #d3d7cf;
+    border-bottom: 1px solid #f6faf2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    clear: both;
+    font-size: 12px;
+    text-align: right;
+}
+#footer #corp{	
+    padding-right: 25%;
+}
+#footer span{
+	padding-right:10px;
+}
+#mediaContent{
+	width:100%;
+        height:80%;
+}
+.videoPlayer{
+    position: relative;
+    margin-bottom: 30px;
+}

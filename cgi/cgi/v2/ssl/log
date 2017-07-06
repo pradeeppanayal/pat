@@ -1,0 +1,5 @@
+
+2017-02-23 08:29:20.055731	DEBUG	Command openssl req -subj '/CN=sampleca/O=Org/OU=ARISTA/C=IN/emailAddress=pradeeppanayal@gmail.com/ST=ST/L=MYSURU' -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout resources/sampleca/ROOT/sampleca-private.key -out resources/sampleca/ROOT/sampleca-public.cert :::: Output 0
+2017-03-03 14:15:12.229744	DEBUG	Command openssl req -new -newkey rsa:2048 -nodes -subj "/CN=u1/O=PAYODA/OU=ARISTA/C=IN/emailAddress=user@payoda.com/ST=CBE/L=CBE" -keyout resources/sampleca/USERCERTS/u1_privkey.pem -out resources/sampleca/USERCERTS/user-u1.csr :::: Output 0
+2017-03-03 14:15:12.283474	DEBUG	Command openssl ca  -batch -config resources/sampleca/openssl.conf -extensions usr_cert -days 375 -notext -md sha256 -in resources/sampleca/USERCERTS/user-u1.csr -out resources/sampleca/SIGNEDCERT/u1_user_cert.pem :::: Output 0
+2017-05-17 17:02:58.508159	DEBUG	Command openssl ca -batch -config resources/sampleca/openssl.conf -extensions server_cert -days 1 -notext -md sha256 -in resources/sampleca/CSR/arista.csr -out resources/sampleca/SIGNEDCERT/arista.csr-signed.cert :::: Output 0

@@ -1,0 +1,5 @@
+V2 folder contains the UI(Pure HTML and JS) files 
+cgi folder contains the python files and library files
+
+Follwoing packages are needed
+=> Paramiko

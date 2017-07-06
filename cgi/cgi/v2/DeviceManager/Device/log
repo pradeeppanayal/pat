@@ -1,0 +1,90 @@
+
+2017-06-23 18:11:56.971146:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.91/vEOS-65.91.vmdk
+2017-06-23 18:11:57.795973:
+2017-06-23 18:11:58.712842:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.91/vEOS-65.91-flat.vmdk
+2017-06-23 18:12:01.950373:
+2017-06-23 18:12:01.950669:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.91/vEOS-65.91.vmdk
+2017-06-23 18:14:03.350181:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:14:18.630371:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.92/vEOS-65.92.vmdk
+2017-06-23 18:14:20.194844:
+2017-06-23 18:14:21.251842:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.92/vEOS-65.92-flat.vmdk
+2017-06-23 18:14:23.340150:
+2017-06-23 18:14:23.340413:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.92/vEOS-65.92.vmdk
+2017-06-23 18:15:54.469456:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:16:09.139120:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.93/vEOS-65.93.vmdk
+2017-06-23 18:16:09.752371:
+2017-06-23 18:16:10.314075:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.93/vEOS-65.93-flat.vmdk
+2017-06-23 18:16:13.339084:
+2017-06-23 18:16:13.339396:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.93/vEOS-65.93.vmdk
+2017-06-23 18:17:51.590439:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:18:04.359561:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.94/vEOS-65.94.vmdk
+2017-06-23 18:18:05.029484:
+2017-06-23 18:18:05.913621:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.94/vEOS-65.94-flat.vmdk
+2017-06-23 18:18:07.899743:
+2017-06-23 18:18:07.900087:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.94/vEOS-65.94.vmdk
+2017-06-23 18:19:34.833270:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:19:50.877223:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.95/vEOS-65.95.vmdk
+2017-06-23 18:19:51.607573:
+2017-06-23 18:19:52.387117:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.95/vEOS-65.95-flat.vmdk
+2017-06-23 18:19:55.754706:
+2017-06-23 18:19:55.754980:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.95/vEOS-65.95.vmdk
+2017-06-23 18:21:27.405275:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:21:44.737435:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.96/vEOS-65.96.vmdk
+2017-06-23 18:21:45.490670:
+2017-06-23 18:21:46.228787:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.96/vEOS-65.96-flat.vmdk
+2017-06-23 18:21:47.866790:
+2017-06-23 18:21:47.867054:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.96/vEOS-65.96.vmdk
+2017-06-23 18:23:31.749795:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:23:45.867388:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.97/vEOS-65.97.vmdk
+2017-06-23 18:23:46.367636:
+2017-06-23 18:23:46.972463:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.97/vEOS-65.97-flat.vmdk
+2017-06-23 18:24:00.856114:
+2017-06-23 18:24:00.856416:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.97/vEOS-65.97.vmdk
+2017-06-23 18:26:11.811697:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:26:27.229237:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.98/vEOS-65.98.vmdk
+2017-06-23 18:26:27.866454:
+2017-06-23 18:26:28.573831:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.98/vEOS-65.98-flat.vmdk
+2017-06-23 18:26:32.148070:
+2017-06-23 18:26:32.148360:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.98/vEOS-65.98.vmdk
+2017-06-23 18:28:42.260296:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:28:57.146303:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.99/vEOS-65.99.vmdk
+2017-06-23 18:28:57.644671:
+2017-06-23 18:28:58.208358:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.99/vEOS-65.99-flat.vmdk
+2017-06-23 18:28:59.265573:
+2017-06-23 18:28:59.265719:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.99/vEOS-65.99.vmdk
+2017-06-23 18:30:46.898419:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.
+
+2017-06-23 18:31:07.636052:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.100/vEOS-65.100.vmdk
+2017-06-23 18:31:08.096589:
+2017-06-23 18:31:08.554979:Executing command rm -rf /vmfs/volumes/DATASTORE03/vEOS-65.100/vEOS-65.100-flat.vmdk
+2017-06-23 18:31:10.409758:
+2017-06-23 18:31:10.410024:Executing command vmkfstools -i /vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk -d eagerzeroedthick /vmfs/volumes/DATASTORE03/vEOS-65.100/vEOS-65.100.vmdk
+2017-06-23 18:33:01.706035:Destination disk format: VMFS eagerzeroedthick
+Cloning disk '/vmfs/volumes/DATASTORE02/ISO/vEOS-65.1-disk1.vmdk'...
+Clone: 54% done.Clone: 55% done.Clone: 56% done.Clone: 57% done.Clone: 58% done.Clone: 59% done.Clone: 60% done.Clone: 61% done.Clone: 62% done.Clone: 63% done.Clone: 64% done.Clone: 65% done.Clone: 66% done.Clone: 67% done.Clone: 68% done.Clone: 69% done.Clone: 70% done.Clone: 71% done.Clone: 72% done.Clone: 73% done.Clone: 74% done.Clone: 75% done.Clone: 76% done.Clone: 77% done.Clone: 78% done.Clone: 79% done.Clone: 80% done.Clone: 81% done.Clone: 82% done.Clone: 83% done.Clone: 84% done.Clone: 85% done.Clone: 86% done.Clone: 87% done.Clone: 88% done.Clone: 89% done.Clone: 90% done.Clone: 91% done.Clone: 92% done.Clone: 93% done.Clone: 94% done.Clone: 95% done.Clone: 96% done.Clone: 97% done.Clone: 98% done.Clone: 99% done.Clone: 100% done.

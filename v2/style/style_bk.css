@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../font/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../font/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Condensed-Regular";
+    src: url("../font/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Condensed-Bold";
+    src: url("../font/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../font/Roboto-Thin.ttf");
+}
+body {
+   font-family: Roboto-Condensed-Regular;
+   font-size: 14px;
+}
+.headerWrap {
+	background-color: #626573;
+	padding: 5px 8px;
+}
+.headerLogo {
+	font-size: 24px;
+	color: #fff;
+	font-family: Roboto-Condensed-Bold;
+	letter-spacing: 1.5px;
+}
+.leftPaneWrap {
+	min-width: 265px;
+	width: 20%;
+	height: 615px;	
+	padding: 10px 0;
+	background-color: #f8f8fb;
+}
+.rightPaneWrap {
+	min-width: 1078px;
+	width: 80%;
+	height: 615px;
+}
+.menuHolder {
+	margin-bottom: 10px;
+}
+.menuHolder  p{
+	font-family: Roboto-Bold;
+	font-size: 15px;
+	margin-bottom: 4px;
+	padding: 0 10px;
+	color: #131316;
+}
+.menuHolder  ul {
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.menuHolder  ul li{
+	list-style-type: none;
+	color: #626573;
+	padding: 4px 0 4px 20px;
+	cursor: pointer;
+}
+.menuHolder  ul li a, .menuHolder  ul li a:hover{
+	text-decoration: none;
+	color: #626573;
+}
+.menuHolder  ul li:hover, .menuHolder  ul li.active{
+	background-color: #daddea;
+}
+.rightPaneWrap {
+	padding: 0 15px;
+}
+.breadcrumbWrap {
+	font-size: 12px;	
+	padding: 12px 0; 
+	border-bottom: 1px solid #ccc;
+}	
+.breadcrumbWrap a, .breadcrumbWrap a:hover, td a, td a:hover {
+	color: #395cff;
+	cursor: pointer;
+}
+.mainContentWrap h3 {
+	font-size: 18px;
+	font-family: Roboto-Bold;
+	margin: 10px 0 15px;
+}
+.inputFields {
+	margin-bottom: 8px;
+}
+.inputFields span {
+	display: inline-block;
+	width: 180px;
+	color: #626573;
+}
+.inputFields select {
+	width: 150px;
+	height: 28px;
+	border: 1px solid #ccc;
+}
+.mainContentWrap h4{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+.inputFields input {
+	width: 240px;
+	height: 28px;
+	border: 1px solid #ccc;
+}
+.buttonWrap {
+	margin: 25px 0 0 185px;
+}
+.inlineButton {
+	display: inline-block;	
+}
+.buttonWrap button, .inlineButton button, .addButton {
+	color: #fff;
+	padding: 6px 12px;
+	background-color: #626573;
+	border: none;
+	margin-right: 5px;
+}
+.inlineButton button {
+	padding: 4px 12px;
+	margin-left: 5px;
+}
+.buttonWrap button.secondaryBtn {
+	background-color: #91939d;
+}
+.textBox {
+	height: 450px;
+	margin-top: 15px;
+	border: 1px solid #ccc;
+}	
+.optionHolders {
+	background-color: #f8f8fb;
+	height: 225px;
+	width: 49%;
+	margin-bottom: 10px;
+	float: left;
+	padding: 45px 0;
+}
+.firstBox {
+	padding: 75px 0;
+}
+.marginRight {
+	margin-right: 10px;
+}
+.centerAlign {
+	text-align: center;
+}
+.centerAlign.buttonWrap {
+	margin-left: 0;
+	margin-top: 5px;
+}
+div.fileinputs {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	border:1px solid #ccc;
+	background-color: #f8f8fb;
+	padding: 2px 0 2px 3px;
+	margin-left: 150px;
+}
+div.fakefile input{
+	border:none;
+	background-color: #f8f8fb;
+}
+div.fakefile span{
+	background-color: #91939d;
+	color: #fff;
+	padding: 6px;
+}
+input.file {
+	margin-left: 140px;
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+.optionHolders  input[type="text"] {
+	margin-bottom: 10px;
+	border:1px solid #ccc;
+	padding:4px;
+	text-align: center;
+	background-color: #f8f8fb;
+}
+.addButton {
+	font-size: 38px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 5px 6px 6px;
+	font-family: Roboto-Thin;
+}
+table {
+	margin-top: 40px;
+}
+th {
+	background-color: #f8f8fb;
+}
+table, th, td {
+    border: 1px solid #ccc;
+	border-width:1px 0;
+    border-collapse: collapse;	
+}
+td {
+	color: #626573;
+}
+table th, table td {
+	padding: 8px 20px;
+}
+.textareaLabel {
+	vertical-align: top;
+}
+textarea {
+	border: 1px solid #ccc;
+        width: 240px;
+}
+.resetLeftPane {
+	width:42%;
+}
+.resetRightPane {
+	width:58%;
+	height: 450px;
+	border-left: 1px solid #ccc;
+	padding-left:10px;
+}
+.resetLeftPane .inputFields span {
+	width: 134px;
+}
+.resetLeftPane .buttonWrap {
+    margin: 25px 0 0 140px;
+}
+.consoleContent{
+    text-align: left;
+    height: 425px;
+    overflow-y: scroll;
+}

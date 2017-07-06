@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+Author    : Pradeep CH
+Date      : 18-Feb-2017
+Version   : 1.0.0
+Since     : 2.0.0
+-->
+
+
+<html>
+<head>
+	<!-- stylesheets files-->
+	<link  rel="stylesheet" href="/pat/v2/style/style.css">
+	<link  rel="stylesheet" href="/pat/v2/style/bootstrap.min.css"> 
+        <link rel="shortcut icon" type="image/x-icon" href="/pat/v2/img/1490877913_Model.ico">
+	<title>PAT - CA Information</title>
+</head>
+<body>
+<div class="headerWrap">
+   <div class="headerLogo">PAT</div>
+</div>
+<div class="contentWrap clearfix">
+<div class="leftPaneWrap pull-left"> 
+  <div class="menuHolder">
+	<p>Device management</p>
+	<ul>
+		<li><a href="/pat/v2/DeviceManager/manager.htm">Device Reset</a></li>
+		<li><a href="/pat/v2/DeviceManager/authenticate.htm">Validate Authentication</a></li>
+	</ul>
+  </div> 
+  <div class="menuHolder">
+	<p>Device Allocator</p>
+	<ul>
+		<li><a href="/pat/v2/DeviceAllocator/environment/envmanager.htm">Environment Manager</a></li>
+		<li><a href="/pat/v2/DeviceAllocator/Hypervisor/view.htm">Hypervisor Manager</a></li>
+		<li><a href="/pat/v2/DeviceAllocator/DHCP/view.htm">DHCP Manager</a></li>
+		<li><a href="/pat/v2/DeviceAllocator/Device/pool.htm">Device Allocator</a></li>
+	</ul>
+  </div>  
+  <div class="menuHolder">
+	<p>Command Execute & Image Push</p>
+	<ul>
+		<li><a href='/pat/v2/command/executor.htm'>Execute Command(EAPI)</a></li>
+		<li><a href='/pat/v2/command/sshexecutor.htm'>Execute Command(SSH)</a></li> 
+		<li><a href='/pat/v2/command/imagepush.htm'>Image Push</a></li>
+	</ul>
+  </div>
+  <div class="menuHolder">
+	<p>SSL Certificate Manager</p>
+	<ul>
+		<li class='active'><a href='/pat/v2/ca/view.htm'>Certificate Authorities</a></li>
+	</ul>
+  </div>
+  <div class="menuHolder">
+	<p>Miscellaneous</p>
+	<ul>
+		<li><a href='/pat/v2/ssh/remotessh.htm'>Remote SSH</a></li>
+		<li><a href="/pat/v2/kvm/view.htm">KVM Manager</a></li>
+		<li><a href="/pat/v2/ipscanner/ipscanner.htm">IP Scanner</a></li>
+		<li><a href="/pat/v2/scripter/view.htm">Script Executor</a></li>
+		<li><a target='_blanck' href="/pat/v2/library/view.htm">Classroom</a></li>
+	</ul>
+  </div>
+</div>
+<div class="rightPaneWrap pull-right">
+<!-- Content Starts here -->
+
+<div class="breadcrumbWrap">
+	<a href='/pat/v2/'>Home</a> &nbsp;&nbsp;>&nbsp;&nbsp; <a href='view.htm'>Certificate Authorities</a>&nbsp;&nbsp;>&nbsp;&nbsp;<span>CA Info</span>
+</div>
+<div class="mainContentWrap">
+		<h3>CA Info</h3>
+	
+		<input type ='hidden' id='orginalUID' />
+
+		<div class="mainContent"> 
+		<div class="resetLeftPane pull-left"> 
+		<div class="inputFields">
+			<span>Common Name (CN)</span>
+			<input type='text' name='cn' id='cn' />
+		</div>
+		<div class="inputFields">
+			<span>Organisation(O)</span>
+			<input type='text' name='org' id='org'  /> 
+		</div>
+		<div class="inputFields">
+			<span>Organizational Unit(OU</span>
+			<input type='text' name='orgUnit' id='orgUnit' />
+		</div>
+		<div class="inputFields">
+			<span>EMAIL</span>
+			<input type='email' name='email' id='email' />
+		</div>			
+		<div class="inputFields">
+			<span>Country(C)</span>
+			<input type='text' name='country' id='country' />
+		</div>			
+		<div class="inputFields">
+			<span>State(ST)</span>
+			<input type='text' name='state' id='state' /> 
+		</div>			
+		<div class="inputFields">
+			<span>Locality(L)</span>
+			<input type='text' name='locality' id='locality'  /> 
+		</div>
+			
+		<div class="buttonWrap">
+			<button id='save'>Save CA</button>
+			<button class="reset" id='reset'>Reset</button>
+		</div>
+		</div>
+		<div class="resetRightPane pull-right">
+			<h4>Console</h4>			 
+			<div class='consoleContent' id='consoleContent'> 				 
+			</div>
+		</div>
+		<!--
+		<span>Eg: 192.168.5.9/192.168.5.0-192.168.5.10/192.168.5.1,192.168.5.2</span>
+		-->
+	</div>
+</div> 
+<!-- End content -->
+</div>
+<!-- Scripts -->
+	<script src="/pat/v2/js/jquery.min.js"></script>
+	<script src="/pat/v2/js/jqueryext.js"></script> 
+	<script src="/pat/v2/js/utils.js"></script>
+	<script src="/pat/v2/js/serverConfig.js"></script>
+	<script src="/pat/v2/js/ssl/newca.js"></script>
+<!-- End scripts -->
+
+</div>
+</div>
+<div id='footer'>
+	<span id='corp'>© 2017 PAT </span><span id='author'>Developed By : Pradeep CH</span>&nbsp;<span>Version :2.0.0</span>
+</div>
+</body>
+</html> 
