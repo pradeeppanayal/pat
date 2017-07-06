@@ -1,0 +1,96 @@
+create table if not exists EnvInfo(
+		id varchar(120),
+		ip varchar(20),
+		username varchar(20),
+		password varchar(20), 
+		identifier varchar(120) ,
+		status varchar(20),
+		bootstrap varchar(50), 
+		description varchar(120),
+		phase varchar(20),
+                team varchar(20)		
+);
+
+create table if not exists DHCPSubnets(
+	id varchar(50),
+	serverIp varchar(20),
+	subnet varchar(20),
+	netmask varchar(20)
+);
+
+create table if not exists DHCPPools(
+	id varchar(120),
+	subnetId varchar(50),
+	serverIp varchar(20),
+	assignedDate varchar(50),
+	assignEndDate varchar(50),
+        rangeStart varchar(50),
+        rangeEnd varchar(50),
+        bootfileName varchar(50),
+        subnetMask varchar(50),
+        routers varchar(50),
+        status varchar(20),
+	assignedEnv varchar(120),
+        devicecount number,
+        hypervisor varchar(120)
+);
+
+create table if not exists DHCPHosts(
+	mac varchar(50),
+	name varchar(50),
+	ip varchar(20),
+	poolId varchar(50),
+	serverIp varchar(20)
+);
+
+create table if not exists Hypervisors(
+		id varchar(120),
+		ip varchar(20),
+		username varchar(20),
+		password varchar(20), 
+		type varchar(50), 
+		identifier varchar(120) ,
+		status varchar(20)	
+);
+
+create table if not exists DHCPServers(
+		id varchar(120),
+		ip varchar(20),
+		username varchar(20),
+		password varchar(20), 
+		identifier varchar(120),
+		configStatus varchar(20),
+		configAvailable varchar(20),
+		configmd5 varchar(20),
+		status varchar(20),
+		configSynchUp varchar(20)
+	);
+
+	
+create table if not exists Library(
+		id integer primary key autoincrement,
+		filename varchar(120),
+		subject varchar(120),
+		desc varchar(120),
+		path varchar(120),
+		date varchar(120),
+		mediatype varchar(20)
+	);
+
+create table if not exists ScriptMapper(
+		id integer primary key autoincrement,
+		fileName varchar(120),
+		uploadedBy varchar(120),
+		uploadedOn varchar(120),
+		scriptType varchar(120),
+		param varchar(120)
+	);
+
+create table if not exists AllocationHistory(
+		id integer primary key autoincrement,
+		logdate varchar(50),
+		user varchar(30),
+		log varchar(120),
+		detailLogFile varchar(30)
+	);
+

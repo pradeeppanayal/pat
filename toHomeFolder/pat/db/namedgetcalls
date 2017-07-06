@@ -1,0 +1,1 @@
+POOLINFO::select P.id,P.subnetId, P.serverIp,P.assignedDate,P.rangeStart,P.rangeEnd ,P.bootfileName, P.subnetMask,P.routers,P.status,P.assignedEnv,P.devicecount,P.assignEndDate,P.hypervisor from DHCPPools P::poolid,subnetId,serverIp,assignedDate,rangeStart,rangeEnd, bootfileName,subnetMask,routers,status,assignedEnv,devicecount,assignEndDate,hypervisor::
