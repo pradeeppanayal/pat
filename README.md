@@ -11,13 +11,13 @@ PAT is multi utility application. PAT allows
 * Open VMWare node console in your machine from PAT server
 
 # Usage
-*Install java
-*Install python
-*Set JAVA_HOME or JRE_HOME
-*Change context to enable CGI and set python path
-*Copy "v2" folder to '/webapps/pat/' folder
-*Copy "cgi" to the configured cgi poth. Example /webapps/pat/WEB_INF/cgi
-*Start tomcat 
+* Install java
+* Install python
+* Set JAVA_HOME or JRE_HOME
+* Change context to enable CGI and set python path
+* Copy "v2" folder to '/webapps/pat/' folder
+* Copy "cgi" to the configured cgi poth. Example /webapps/pat/WEB_INF/cgi
+* Start tomcat 
 PAT URL : http://127.0.0.1:8080/pat/v2
 
 
